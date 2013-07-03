@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SmartyStreets::VERSION
   spec.authors       = ["Russ Smith"]
   spec.email         = ["russ@bashme.org"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = 'A ruby gem to integrate with http://www.smartystreets.com'
+  spec.summary       = 'A ruby gem to integrate with http://www.smartystreets.com'
   spec.homepage      = ""
   spec.license       = "MIT"
 
