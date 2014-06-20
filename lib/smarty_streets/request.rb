@@ -35,6 +35,7 @@ module SmartyStreets
         location.delivery_point_barcode = l['delivery_point_barcode']
         location.components = l['components']
         location.meta_data = l['metadata']
+        location.analysis = l['analysis']
         location
       end
     end
