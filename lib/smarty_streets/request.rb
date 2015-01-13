@@ -64,7 +64,7 @@ module SmartyStreets
         "#{k.to_s.gsub('_', '-')}=#{CGI.escape(v.to_s)}"
       }.join('&')
 
-      'http://' + SmartyStreets.configuration.api_url +
+      'https://' + SmartyStreets.configuration.api_url +
       '/street-address/?' + parameter_string
     end
   end
