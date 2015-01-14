@@ -6,7 +6,7 @@ describe SmartyStreets::Configuration do
       c.api_url = 'apiurl'
       c.auth_id = 'MYAUTHID'
       c.auth_token = 'MYAUTHTOKEN'
-      c.number_of_candidates = 1
+      c.candidates = 1
     end
   end
 
@@ -22,7 +22,7 @@ describe SmartyStreets::Configuration do
     expect(SmartyStreets.configuration.auth_token).to eq 'MYAUTHTOKEN'
   end
 
-  it 'sets the number_of_candidates' do
-    expect(SmartyStreets.configuration.number_of_candidates).to eq 1
+  it 'sets the candidates' do
+    expect(SmartyStreets.configuration.candidates).to eq 1
   end
 end

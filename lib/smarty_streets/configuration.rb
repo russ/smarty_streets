@@ -10,11 +10,11 @@ module SmartyStreets
     attr_accessor :auth_token
 
     # Number of candidates to provide when making a request.
-    attr_accessor :number_of_candidates
+    attr_accessor :candidates
 
     def initialize
       @api_url = 'api.smartystreets.com'
-      @number_of_candidates = 1
+      @candidates = 1
     end
 
     # Returns a hash of all configurable options
