@@ -58,8 +58,8 @@ module SmartyStreets
         addressee: location.addressee,
         urbanization: location.urbanization,
         candidates: location.candidates || SmartyStreets.configuration.candidates,
-        auth_id: SmartyStreets.configuration.auth_id,
-        auth_token: SmartyStreets.configuration.auth_token
+        "auth-id" => SmartyStreets.configuration.auth_id,
+        "auth-token" => SmartyStreets.configuration.auth_token
       }
 
       parameter_string = parameters.collect { |k,v|
