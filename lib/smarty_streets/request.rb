@@ -20,7 +20,6 @@ module SmartyStreets
     private
 
     def handle_response(response)
-      puts response.code 
       raise InvalidCredentials if response.code == 401
       raise MalformedData      if response.code == 400
       raise PaymentRequired    if response.code == 402
