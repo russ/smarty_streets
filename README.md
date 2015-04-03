@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/russ/smarty_streets.svg?style=svg)](https://circleci.com/gh/russ/smarty_streets)
+
 # SmartyStreets
 
 A ruby library to integrate with the SmartyStreets API.
