@@ -16,12 +16,5 @@ module SmartyStreets
       @api_url = 'api.smartystreets.com'
       @candidates = 1
     end
-
-    # Returns a hash of all configurable options
-    def to_hash
-      OPTIONS.inject({}) do |hash, option|
-        hash.merge(option.to_sym => send(option))
-      end
-    end
   end
 end
