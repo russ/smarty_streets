@@ -29,6 +29,7 @@ module SmartyStreets
       JSON.parse(response.body).collect do |l|
         location = Location.new
         location.street                 = l['delivery_line_1']
+        location.street2                = l['delivery_line_2']
         location.city                   = l['components']['city_name']
         location.state                  = l['components']['state_abbreviation']
         location.zipcode                = l['components']['zipcode'] + '-' + l['components']['plus4_code']
