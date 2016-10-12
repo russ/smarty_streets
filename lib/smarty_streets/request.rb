@@ -1,10 +1,11 @@
 module SmartyStreets
   class Request
-    class InvalidCredentials < Exception; end
-    class MalformedData < Exception; end
-    class PaymentRequired < Exception; end
-    class NoValidCandidates < Exception; end
-    class RemoteServerError < Exception; end
+    class RequestError < StandardError; end
+    class InvalidCredentials < RequestError; end
+    class MalformedData < RequestError; end
+    class PaymentRequired < RequestError; end
+    class NoValidCandidates < RequestError; end
+    class RemoteServerError < RequestError; end
 
     attr_accessor :location
 
