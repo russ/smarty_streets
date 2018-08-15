@@ -1,3 +1,5 @@
+** USE https://github.com/smartystreets/smartystreets-ruby-sdk INSTEAD **
+
 [![Circle CI](https://circleci.com/gh/russ/smarty_streets.svg?style=svg)](https://circleci.com/gh/russ/smarty_streets)
 [![Coverage Status](https://coveralls.io/repos/russ/smarty_streets/badge.svg?branch=master)](https://coveralls.io/r/russ/smarty_streets?branch=master)
 
